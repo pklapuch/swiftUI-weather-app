@@ -13,6 +13,7 @@
 		359153CE26D9318C00AE1802 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 359153CD26D9318C00AE1802 /* Preview Assets.xcassets */; };
 		359153D926D9318C00AE1802 /* SwiftUI_WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359153D826D9318C00AE1802 /* SwiftUI_WeatherTests.swift */; };
 		359153E426D9318C00AE1802 /* SwiftUI_WeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359153E326D9318C00AE1802 /* SwiftUI_WeatherUITests.swift */; };
+		35B3C6C726DA87880039CCCC /* ChangeDayTimeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B3C6C626DA87880039CCCC /* ChangeDayTimeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		359153DF26D9318C00AE1802 /* SwiftUI-WeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-WeatherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		359153E326D9318C00AE1802 /* SwiftUI_WeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_WeatherUITests.swift; sourceTree = "<group>"; };
 		359153E526D9318C00AE1802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35B3C6C626DA87880039CCCC /* ChangeDayTimeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeDayTimeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				359153C626D9318B00AE1802 /* SwiftUI_WeatherApp.swift */,
 				359153C826D9318B00AE1802 /* ContentView.swift */,
+				35B3C6C626DA87880039CCCC /* ChangeDayTimeButton.swift */,
 				359153CA26D9318C00AE1802 /* Assets.xcassets */,
 				359153CF26D9318C00AE1802 /* Info.plist */,
 				359153CC26D9318C00AE1802 /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				359153C926D9318B00AE1802 /* ContentView.swift in Sources */,
 				359153C726D9318B00AE1802 /* SwiftUI_WeatherApp.swift in Sources */,
+				35B3C6C726DA87880039CCCC /* ChangeDayTimeButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
